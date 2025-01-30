@@ -11,7 +11,11 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f3f4f6;
+            background-color: #5CCEFF;
+        }
+
+        .logo {
+            width: 10%;
         }
 
         .navbar {
@@ -31,7 +35,7 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 95%;
             margin: 2rem auto;
             padding: 1rem;
             background: white;
@@ -124,12 +128,10 @@
 <body>
 
 
-
-<div class="container">
-    <div class="header">
-        <img src="" alt="">
-        
+    <div class="logo">
+        <img src="logo/dom-san.png" alt="logo">
     </div>
+<div class="container">
     <div class="navbar">
         <a href="#">Dashboard</a>
         <a href="#">Data Siswa</a>

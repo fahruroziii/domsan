@@ -58,10 +58,7 @@
         .header {
             text-align: center;
             margin-bottom: 10px;
-        }
-
-
-        
+        }       
 
         .table-wrapper {
             overflow-x: auto;
@@ -90,32 +87,7 @@
             border-radius: 7px;
             cursor: pointer;
             margin: 0 0.2rem;
-            color: white; 
-        }
-
-        .action-buttons button {
-            padding: 0.5rem 1rem;
-            border: none;
-            border-radius: 7px;
-            cursor: pointer;
-            margin: 0 0.2rem;
             color: white;
-        }
-
-        .btn-tarik {
-            background-color: #5CCEFF;
-        }
-
-        .btn-tabung {
-            background-color: #5CCEFF;
-        }
-
-        .btn-riwayat {
-            background-color: #5CCEFF;
-        }
-
-        .btn-edit {
-            background-color: #ffa500;
         }
 
         .btn-hapus {
@@ -134,15 +106,6 @@
             border-radius: 4px;
         }
 
-        .add-button {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background-color: #5CCEFF;
-            color: black;
-            text-decoration: none;
-            border-radius: 7px;
-            margin-bottom: 10px;
-        }
     </style>
 </head>
 <body>
@@ -155,8 +118,7 @@
             <a href="#">Data Siswa</a>
             <a href="#">Cek Riwayat Nasabah</a>
         </div>
-        <h1>Data Siswa</h1>
-        <a href="#" class="add-button">+</a>
+        <h1>Riwayat Nasabah</h1>
         <div class="search">
             <input type="text" placeholder="Search">
         </div>
@@ -165,11 +127,11 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Foto</th>
+                        <th>Tanggal</th>
                         <th>Nama</th>
-                        <th>No. Induk</th>
                         <th>Kelas</th>
-                        <th>Saldo</th>
+                        <th>Debet</th>
+                        <th>Kredit</th>
                         <th>Keterangan</th>
                         <th>Aksi</th>
                     </tr>
@@ -177,20 +139,16 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td><img src="profile1.jpg" alt="Foto" width="40"></td>
+                        <td>15/01/2025</td>
                         <td>Devinda Amelia</td>
                         <td>10</td>
-                        <td>10</td>
-                        <td>150,000.00</td>
-                        <td class="bank-buttons">
-                            <button class="btn-tarik">Tarik</button>
-                            <button class="btn-tabung">Tabung</button>
-                            <button class="btn-riwayat">Riwayat</button>
-                        </td>
-                        <td class="action-buttons">
-                            <button class="btn-edit">Edit</button>
-                            <button class="btn-hapus">Hapus</button>
-                        </td>
+                        <td>50.000.00</td>
+                        <td>    -    </td>
+                        <td>
+                            Membayar keperluan pondok</td>
+                            <td class="bank-buttons">  <button class="btn-hapus">hapus</button></td>
+                          
+                        
                     </tr>
                     <!-- Tambahkan baris lain sesuai kebutuhan -->
                 </tbody>

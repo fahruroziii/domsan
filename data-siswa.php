@@ -146,7 +146,7 @@
     </style>
 </head>
 <body>
-<div class="logo">
+    <div class="logo">
             <img src="logo/dom-san.png" alt="logo">
         </div>
     <div class="container">

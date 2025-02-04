@@ -102,12 +102,12 @@
             margin: 0 10px; 
         }
         footer{
-    background: #ccc;
-    color: #555;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 0;
-    }
+        background: #ccc;
+        color: #555;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 0;
+        }
     </style>
 </head>
 <body>

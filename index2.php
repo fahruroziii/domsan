@@ -30,14 +30,14 @@
             background: #5CCEFF;
             padding: 10px;
             border-radius: 10px;
-            margin-right: 365px;
+            margin-right: 30%;
         }
         .saldo {
             width: 150px;
             background: #5CCEFF;
             padding: 10px;
             border-radius: 10px;
-            margin-left: 450px;
+            margin-left: 35%;
         }
         .garis-horizontal {
             border-top: 5px solid #5cceff;
@@ -47,6 +47,8 @@
             margin-bottom: 10px;
         }
         .pendahuluan {
+            display: flex;
+            align-items: center;
             margin-top: 20px;
             margin-left: 10px;
             margin-right: 10px;
@@ -67,6 +69,9 @@
             text-indent: 30px;
             text-align: left;
             width: 50%;
+        }
+        .pendahuluan img{
+            width: 110px;
         }
         .partners {
             margin-top: 20px;
@@ -94,11 +99,18 @@
         </div>
         <div class="garis-horizontal"></div>
         <div class="pendahuluan">
-            <h4>PENDAHULUAN APLIKASI</h4>
-            <p>Sekolah SMK (Sekolah Menengah Kejuruan) yang berada di pesantren kami mempunyai labolatorium bank mini yang mempunyai 2 jenis tabungan yaitu SIMPEL (Simpanan Pelajar) & SIMKAH (Simpanan Berkah).</p>
-            <p>Dengan itu kami merancang aplikasi yang berjudul DOM-SAN (Dompet Santri), Aplikasi ini memudahkan wali santri untuk ,memantau keuangan anak di pondok, Jadi bisa meminimalisir pemborosan.</p>
+            <div>
+                <h4>PENDAHULUAN APLIKASI</h4>
+                <p>Sekolah SMK (Sekolah Menengah Kejuruan) yang berada di pesantren kami mempunyai labolatorium bank mini yang mempunyai 2 jenis tabungan yaitu SIMPEL (Simpanan Pelajar) & SIMKAH (Simpanan Berkah).</p>
+                <p>Dengan itu kami merancang aplikasi yang berjudul DOM-SAN (Dompet Santri), Aplikasi ini memudahkan wali santri untuk ,memantau keuangan anak di pondok, Jadi bisa meminimalisir pemborosan.</p>
+            </div>
+            <div>
+            <img src="logo/simpel.jpg" alt="simpel">
+            </div>
+            <div>
+            <img src="logo/simkah.jpg" alt="simkah">
+            </div>
         </div>
-
         <div class="partners">
             <img src="logo/bmd.png" alt="BMD Syariah">
             <img src="logo/bsi.png" alt="Bank Syariah Indonesia">

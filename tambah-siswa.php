@@ -50,28 +50,30 @@
 
         .container {
             background-image: url('logo/1.png');
-            background-size: 500px;
+            background-size: 400px;
             background-position: center;
             background-repeat: no-repeat; 
         }
         .form-group {
             display: flex;
-            justify-content: space-between;
+            text-align: center;
             margin-top: 40px;
             margin-bottom: 40px;
         }
         .form-group label {
-            flex: 1;
+            font-size: 20px;
+            margin-left:20%;
+            margin-top: 8px;
         }
         .form-group input {
-            flex: 2;
-            padding: 5px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            width: 30%;
+            padding: 8px;
+            margin-left:20%;
+            border-radius: 8px;
         }
         .buttons {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
             margin-top: 10px;
         }
         .buttons button {
@@ -81,10 +83,12 @@
             cursor: pointer;
         }
         .cancel {
+            margin-right: 50px;
             background: #5cceff;
             color: white;
         }
         .save {
+            margin-left: 50px;
             background: #5cceff;
             color: white;
         }
@@ -108,7 +112,6 @@
             <a href="#">Data Siswa</a>
             <a href="#">Cek Riwayat Nasabah</a>
         </div>
-        <button>Edit Profile</button>
         <div class="form-group">
                 <label>Nama</label>
                 <input type="text" name="Nama">
@@ -127,7 +130,7 @@
             </div>
     </div>
     <footer>
-        Copyright &copy; <b>Fauzeet</b> Official
+        Copyright &copy by <b>Fauzeet</b> Official
     </footer>
 </body>
 </html>

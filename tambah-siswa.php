@@ -68,7 +68,6 @@
         .form-group input {
             width: 30%;
             padding: 8px;
-            margin-left:20%;
             border-radius: 8px;
         }
         .buttons {
@@ -83,7 +82,7 @@
             cursor: pointer;
         }
         .cancel {
-            margin-right: 50px;
+            margin-right: 20px;
             background: #5cceff;
             color: white;
         }
@@ -113,15 +112,15 @@
             <a href="#">Cek Riwayat Nasabah</a>
         </div>
         <div class="form-group">
-                <label>Nama</label>
+                <label>kshfdlkjsdhf</label>
                 <input type="text" name="Nama">
             </div>
             <div class="form-group">
-                <label>Kelas</label>
+                <label>K;dkf</label>
                 <input type="Number" name="Kelas">
             </div>
             <div class="form-group">
-                <label>Saldo</label>
+                <label>Skjvpjdfgjdfjg</label>
                 <input type="number" name="Saldo">
             </div>
             <div class="buttons">
